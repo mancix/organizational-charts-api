@@ -57,6 +57,6 @@ class ApiResponse
         }
 
         //JSON_NUMERIC_CHECK is to encode numeric strings as numbers
-        return json_encode($response,JSON_NUMERIC_CHECK);
+        return json_encode($response, JSON_NUMERIC_CHECK);
     }
 }

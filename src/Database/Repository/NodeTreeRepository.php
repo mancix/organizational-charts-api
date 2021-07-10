@@ -43,7 +43,7 @@ class NodeTreeRepository extends AbstractRepository
 
         /**
          * The subquery retrieves all the child nodes of the give parent idNode and the main query makes a conditional
-         * sum to count the founded child nodes' children
+         * sum to count the found children nodes
          */
         $sql = "SELECT 
                     Parent.idNode AS node_id,

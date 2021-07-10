@@ -77,7 +77,7 @@ class Db
      * @param array $params
      * @return array
      */
-    public function findAll(string $query, $params = []): array
+    public function findAll(string $query, array $params = []): array
     {
         $stmt = $this->exec($query, $params);
         $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
