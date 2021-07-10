@@ -1,0 +1,19 @@
+{
+    "name": "lorenzo-mancini/backend",
+    "description": "Backend developer test",
+    "authors": [
+        {
+            "name": "Lorenzo Mancini",
+            "email": "lorenzo.mancini@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Backend\\": "src"
+        }
+    }
+}
