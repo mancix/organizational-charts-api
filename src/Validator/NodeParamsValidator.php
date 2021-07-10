@@ -37,6 +37,7 @@ class NodeParamsValidator extends AbstractValidator
 
         // search_keyword check
         if (isset($params['search_keyword']) && !is_string($params['search_keyword'])) {
+            $isValid = false;
             self::error("Invalid type: search_keyword is not a string");
         }
 
